@@ -2,18 +2,14 @@ package testcases;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 import base.DriverSetup;
-//import java.awt.Desktop.Action;
 
-public class TC_001_SignInBtn extends DriverSetup{
-	
-	public static String baseurl = "https://chaldal.com/";
+public class OrderingEggs extends DriverSetup {
+public static String baseurl = "https://chaldal.com/";
 	
 	@Test(priority=2)
 	
@@ -175,5 +171,4 @@ public class TC_001_SignInBtn extends DriverSetup{
 		
 //		driver.switchTo().defaultContent();
 	}
-	
 }

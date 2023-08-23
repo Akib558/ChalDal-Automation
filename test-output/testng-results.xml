@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-19T18:03:59 BDT" name="Default suite" finished-at="2023-08-19T18:04:12 BDT" duration-ms="12448">
+  <suite started-at="2023-08-24T00:35:46 BDT" name="Default suite" finished-at="2023-08-24T00:36:14 BDT" duration-ms="28025">
     <groups>
     </groups>
-    <test started-at="2023-08-19T18:03:59 BDT" name="Default test" finished-at="2023-08-19T18:04:12 BDT" duration-ms="12448">
-      <class name="testcases.OrderingEggs">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.OrderingEggs@c05fddc]" started-at="2023-08-19T18:03:56 BDT" name="setup" finished-at="2023-08-19T18:03:59 BDT" duration-ms="3435" status="PASS">
+    <test started-at="2023-08-24T00:35:46 BDT" name="Default test" finished-at="2023-08-24T00:36:14 BDT" duration-ms="28025">
+      <class name="testcases.CheckHomePageFunctionalities">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CheckHomePageFunctionalities@7e990ed7]" started-at="2023-08-24T00:35:43 BDT" name="setup" finished-at="2023-08-24T00:35:46 BDT" duration-ms="2640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ScrollingWebsite()[pri:1, instance:testcases.OrderingEggs@c05fddc]" started-at="2023-08-19T18:04:00 BDT" name="ScrollingWebsite" finished-at="2023-08-19T18:04:12 BDT" duration-ms="12393" status="PASS">
+        <test-method signature="CheckCommonQuestionsDropDowns()[pri:0, instance:testcases.CheckHomePageFunctionalities@7e990ed7]" started-at="2023-08-24T00:35:46 BDT" name="CheckCommonQuestionsDropDowns" finished-at="2023-08-24T00:36:14 BDT" duration-ms="27979" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ScrollingWebsite -->
-      </class> <!-- testcases.OrderingEggs -->
+        </test-method> <!-- CheckCommonQuestionsDropDowns -->
+      </class> <!-- testcases.CheckHomePageFunctionalities -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
